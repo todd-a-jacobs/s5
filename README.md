@@ -39,7 +39,7 @@ than we do. :)
 [s5faq]: http://meyerweb.com/eric/tools/s5/faq.html
 [primer]: http://meyerweb.com/eric/tools/s5/primer.html
 [reference]: http://meyerweb.com/eric/tools/s5/structure-ref.html
-[license]: LICENSE.md
+[license]: http://github.com/CodeGnome/s5/blob/master/LICENSE.md
 [v1.1]: http://meyerweb.com/eric/tools/s5/v/1.1/s5-11.zip
 [themes]: http://meyerweb.com/eric/tools/s5/themes/
 [list]: http://groups.google.com/group/s5project
