@@ -27,7 +27,7 @@ dl dl {margin: 0.5em 1em 1em 0.5em;}
 dl dl dt {margin-top: 0.75em;}
 dl dl dd {margin: 0.25em 0 0 1.5em;}
 
-pre > span, 
+pre > span,
 .optional {color: #337; font-weight: normal;}
 .recommended {color: #000; font-weight: bold;}
 .required {color: #500; font-weight: bold;}
@@ -39,13 +39,13 @@ dt.optional {border-color: #77B;}
 dt.recommended {border-color: gray;}
 dt.generated {border-color: #CCC;}
 dt.generated + dd {color: #999;}
-dt.required + dd:before {content: "Required. "; font-weight: bold; 
+dt.required + dd:before {content: "Required. "; font-weight: bold;
 color: #500;}
-dt.optional + dd:before {content: "Optional. "; font-style: italic; 
+dt.optional + dd:before {content: "Optional. "; font-style: italic;
 color: #333;}
-dt.recommended + dd:before {content: "Recommended. "; 
+dt.recommended + dd:before {content: "Recommended. ";
   color: #000; font-weight: bold;}
-dt.generated + dd:before {content: "[generated] "; 
+dt.generated + dd:before {content: "[generated] ";
   color: #666;}
 
 hr {margin-top: 5em;}
@@ -80,7 +80,7 @@ A complete example file can be found at the end of this document.
 
 <h3>Document Skeleton</h3>
 <pre>
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
 
@@ -100,7 +100,7 @@ This is the basic top-level skeleton for an article file.  Most of these top-lev
 
 <dl>
 
-<dt class="required">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+<dt class="required">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</dt>
 <dd>The document type used for S5 slide shows.  XHTML 1.0 Strict was chosen to allow compatibility with OSF 1.0.</dd>
 
@@ -329,7 +329,7 @@ The presentation section of the file contains one or more slides.  The contents 
 <h3>Complete Example</h3>
 
 <pre>
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
 &lt;head&gt;
@@ -370,7 +370,7 @@ The presentation section of the file contains one or more slides.  The contents 
   &lt;h3&gt;<i>[author's name]</i>&lt;/h3&gt;
   &lt;h4&gt;<i>[author's employer]</i>&lt;/h4&gt;</span>
   &lt;/div&gt;
-  
+
   &lt;div class="slide"&gt;
   <span class="recommended">&lt;h1&gt;<i>[slide title]</i>&lt;/h1&gt;</span>
   <span class="optional">&lt;div class="slidecontent"&gt;</span>

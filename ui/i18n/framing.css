@@ -1,6 +1,6 @@
 /* The following styles size and place the slide components.
    Edit them if you want to change the overall slide layout.
-   The commented lines can be uncommented (and modified, if necessary) 
+   The commented lines can be uncommented (and modified, if necessary)
     to help you with the rearrangement process. */
 
 div#header, div#footer, .slide {width: 100%; top: 0; left: 0;}
