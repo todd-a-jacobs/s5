@@ -33,10 +33,6 @@ than we do. :)
     # Change to the new directory.
     cd /path/to/slideshow
 
-    # Rename the template so that your web server can find it
-    # automatically.
-    mv s5-blank.html index.html
-
     # Edit the slideshow. Remember to remove any boilerplate in the
     # template. 
     vim index.html
