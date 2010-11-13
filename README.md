@@ -21,6 +21,26 @@ immediately. This project certainly believes its licensing to be in good
 faith, but there are people who are paid to know more about these things
 than we do. :)
 
+## Quick Start
+
+    # Clone the repository.
+    git clone git@github.com:CodeGnome/s5.git
+
+    # Copy the template to an appropriately named sub-directory in your
+    # web server's DOCUMENT_ROOT.
+    cp -a s5/s5-blank /path/to/slideshow
+
+    # Change to the new directory.
+    cd /path/to/slideshow
+
+    # Rename the template so that your web server can find it
+    # automatically.
+    mv s5-blank.html index.html
+
+    # Edit the slideshow. Remember to remove any boilerplate in the
+    # template. 
+    vim index.html
+
 ## Documentation
 
 - [S5 FAQ][s5faq]
